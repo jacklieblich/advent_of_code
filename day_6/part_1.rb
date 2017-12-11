@@ -1,5 +1,5 @@
 require 'set'
-str = str = File.read(File.dirname(__FILE__) + '/input.txt')
+str = File.read(File.dirname(__FILE__) + '/input.txt')
 arr = str.split.map(&:to_i)
 set = Set.new
 count = 0
